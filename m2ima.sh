@@ -5,7 +5,7 @@ dir_name=""
 end_ym=""
 m_file_path=""  # m文件路径
 m_dir_path=""   # m文件所在文件夹路径
-MAX_SIZE=$((9 * 1024 * 1024 + 512 * 1024))  # 9.5MiB (9MiB + 512KiB)
+MAX_SIZE=$((8 * 1024 * 1024))  # 8MiB
 
 # 解析命令行选项
 while getopts "o:e:i:" opt; do
