@@ -56,7 +56,7 @@ fi
 echo "开始处理，将持续执行直到遇到早于 $end_ym 的文件..."
 echo "目标文件夹: $dir_name"
 echo "使用的m文件路径: $m_file_path"
-echo "合并文件最大限制: 9.5MiB"
+echo "合并文件最大限制: 8MiB"
 echo "----------------------------------------"
 
 loop_num=1  # 循环计数器
@@ -157,4 +157,4 @@ done
 echo "----------------------------------------"
 echo "处理结束（已遇到早于 $end_ym 的文件）"
 echo "文件已保存至: $dir_name"
-echo "合并文件格式: YYYYMM_编号.txt（单个文件不超过9.5MiB）"
+echo "合并文件格式: YYYYMM_编号.txt（单个文件不超过8MiB）"
