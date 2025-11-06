@@ -5,7 +5,7 @@ A bash script to process files generated from a source file (typically named `m`
 ## Overview
 
 `m2ima.sh` automates processing of files derived from a source file (specified via `-i`). It:
-1. Generates output files using `email.py`
+1. Generates output files using `format.py`
 2. Manages Git repository state in the source file's directory
 3. Organizes generated files by year-month
 4. Merges files into monthly batches with a maximum size of 9.5MiB
@@ -14,9 +14,9 @@ A bash script to process files generated from a source file (typically named `m`
 ## Prerequisites
 
 - Bash shell environment
-- Python 3.x (for running `email.py`)
+- Python 3.x (for running `format.py`)
 - Git (for repository operations)
-- `email.py` (companion script for file generation)
+- `format.py` (companion script for file generation)
 
 ## Usage
 
